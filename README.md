@@ -25,3 +25,4 @@ O botão de contacto abre uma conversa com o número de WhatsApp configurado e u
 ## Créditos
 
 Este projeto parte da base **Responsive Portfolio Website Bianca**, criada por [Bedimcode](https://www.youtube.com/@Bedimcode). Consulte o [tutorial original](https://youtu.be/JSFIGIA9Zrk) e o [repositório de origem](https://github.com/bedimcode/responsive-porfolio-website-Bianca). Esta versão foi traduzida e adaptada.
+# my_protifolio
