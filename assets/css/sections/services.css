@@ -1,0 +1,69 @@
+.services {
+  background: var(--panel);
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.service-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: var(--card);
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+}
+
+.service-card:has(.service__toggle[aria-expanded="true"]) {
+  border-color: #57704e;
+}
+
+.service__toggle {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2rem 1fr auto;
+  gap: 0.65rem;
+  align-items: center;
+  padding: 1.2rem 1.1rem;
+  background: none;
+  border: 0;
+  color: var(--ink);
+  text-align: left;
+}
+
+.service__number {
+  font-size: 0.65rem;
+}
+
+.service__toggle strong {
+  font: 600 0.92rem var(--display);
+}
+
+.service__icon {
+  color: var(--green);
+  font-size: 1.1rem;
+}
+
+.service__content {
+  padding: 0 1.1rem 1.15rem;
+  font-size: 0.76rem;
+}
+
+.service__content ul {
+  padding-left: 1rem;
+  margin: 0.75rem 0 0;
+}
+
+.service__content li::marker {
+  color: var(--green);
+}
+
+@media (max-width: 800px) {
+.services__grid {
+    grid-template-columns: 1fr;
+  }
+}

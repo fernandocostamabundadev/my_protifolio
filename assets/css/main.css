@@ -1,0 +1,41 @@
+@import "base/variables.css";
+@import "base/reset.css";
+@import "base/typography.css";
+@import "layout/grid.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "sections/home.css";
+@import "sections/about.css";
+@import "sections/work.css";
+@import "sections/services.css";
+@import "sections/skills.css";
+@import "sections/testimonials.css";
+@import "sections/contact.css";
+
+@media (prefers-reduced-motion: reduce){
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+  .js-reveal {
+    opacity: 1;
+    transform: none;
+  }
+  .home__content,
+  .home__content > .eyebrow,
+  .home__content h1,
+  .home__content > p:not(.eyebrow),
+  .home__actions,
+  .home__highlights,
+  .home__visual {
+    opacity: 1;
+    transform: none;
+  }
+}

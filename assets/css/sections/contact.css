@@ -1,0 +1,112 @@
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.contact__note {
+  position: relative;
+  overflow: hidden;
+  min-height: 270px;
+  padding: 1.7rem;
+  border: 1px solid #344835;
+  border-radius: 1rem;
+  background: linear-gradient(140deg, #17261a, var(--panel));
+}
+
+.contact__note:after {
+  position: absolute;
+  content: "";
+  width: 170px;
+  height: 170px;
+  right: -50px;
+  bottom: -80px;
+  border-radius: 50%;
+  background: #72ed6010;
+  filter: blur(8px);
+}
+
+.contact__spark {
+  color: var(--green);
+  font-size: 1.7rem;
+}
+
+.contact__note h3 {
+  max-width: 430px;
+  margin: 0.8rem 0;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.contact__note > p:not(.contact__number) {
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  margin: 0.7rem 0 1.2rem;
+  font-size: 0.8rem;
+}
+
+.whatsapp-button {
+  position: relative;
+  z-index: 1;
+}
+
+.whatsapp-button__mark {
+  display: grid;
+  place-items: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  border: 1px solid #071008;
+  border-radius: 50%;
+  font-size: 0.58rem;
+  font-weight: 800;
+}
+
+.contact__number {
+  position: relative;
+  z-index: 1;
+  margin-top: 0.8rem;
+  color: #a7b7a4;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.8rem;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: var(--card);
+}
+
+.contact__details .eyebrow {
+  margin-bottom: 0.7rem;
+}
+
+.contact__details h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.contact__details > p:not(.eyebrow) {
+  max-width: 390px;
+  margin: 0.8rem 0 1rem;
+  font-size: 0.8rem;
+}
+
+.contact__details .text-link {
+  align-self: flex-start;
+}
+
+@media (max-width: 800px) {
+.contact__grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+.contact__grid {
+    grid-template-columns: 1fr;
+  }
+}
