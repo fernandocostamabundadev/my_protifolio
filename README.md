@@ -16,9 +16,16 @@ Abra `index.html` num navegador moderno. O projeto utiliza HTML, CSS e JavaScrip
 - Contacto direto pelo WhatsApp: `+258 845 384 097`.
 - Estrutura semântica, ligação para saltar ao conteúdo e estados de foco visíveis.
 
+## Estrutura
+
+- `index.html` contém o conteúdo da página.
+- `assets/css/main.css` importa os estilos organizados por base, layout e secção.
+- `assets/js/main.js` carrega os módulos da navegação, acordeão e animações.
+- `assets/img/projects/` contém as imagens dos projetos e `assets/img/icons/` os ícones de competências.
+
 ## Publicar os projetos
 
-Na secção «Projetos» de `index.html`, substitua o endereço de exemplo em cada botão «Ver na web» pelo URL correspondente do Vercel. Os 19 cartões correspondem às landing pages na pasta do projeto; os endereços de exemplo usam o marcador `SEU-LINK-VERCEL` e ainda não são ligações de produção.
+Na secção «Projetos» de `index.html`, substitua o endereço de exemplo em cada botão «Ver na web» pelo URL correspondente do Vercel. Os 18 cartões correspondem às landing pages na pasta do projeto; os endereços de exemplo usam o marcador `SEU-LINK-VERCEL` e ainda não são ligações de produção.
 
 O botão de contacto abre uma conversa com o número de WhatsApp configurado e uma mensagem inicial editável. Confirme que o número está correto antes de publicar.
 

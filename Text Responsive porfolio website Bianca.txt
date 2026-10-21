@@ -1,282 +1,181 @@
-========== HEADER & NAV ==========
-✅.nav__logo
-Bianca
 
-✅.nav__link
-Home - Works - My Services - Skills - Contact me
 
+### ========== HEADER & NAV ==========
+Logo: Fernando Costa Mabunda.
+Links: Início · Sobre · Projetos · Serviços · Competências
+Botão (CTA): Vamos conversar ↗
 
-========== HOME SECTION ==========
-✅.home__subtitle
-Hi! I'm Bianca - Based on Peru
 
-✅.home__title
-Creative Designer & <br>
-<span id="home-typed">Web Developer</span>
 
-✅.home__description
-I build designs and websites that solve problems, inspiring success.
+### ========== HOME SECTION ==========
+Subtítulo :
+Desenvolvedor Full-Stack · React · Node.js · PostgreSQL
 
-✅.home__text
-EXPLORE - MORE - LET'S -
+Título Principal:
+Do conceito à produção. Full-stack com propósito.
 
-***** HOME TEXT CIRCULAR JS COMMENTS *****
-// Converts text into an array of characters
+Descrição:
+Desenvolvo aplicações web completas — interfaces modernas com React, APIs robustas com Node.js e bases de dados sólidas com PostgreSQL. Do front-end ao deploy, construo produtos digitais prontos para crescer.
 
-// Angle for each character; length counts the number of characters
+Botões:
+Ver projetos selecionados ↘
+Falar pelo WhatsApp ↗
 
-// Clears the original content
+Highlights (Tags):
+Front-end Moderno (React/Tailwind) · Back-end Robusto (Node/Prisma) · Testes e Documentação (Jest/Swagger/Postman)
 
-// Iterates through each character
+Legenda da Imagem:
+Fernando Costa Mabunda
+Full-Stack · React · Node · PostgreSQL
 
-// Creates a <span> for each letter
 
-// Inserts each character into the span
 
-// Rotates each letter based on its index to form the circle
+### ========== ABOUT SECTION ==========
+Eyebrow:
+Sobre mim · Desenvolvimento full-stack
 
-// Appends the span to the main container
+Título:
+UMA APLICAÇÃO. DO INÍCIO AO FIM.
 
-***** HOME TYPED JS COMMENTS *****
-// Insert professions
+Parágrafo 1:
+Sou Fernando Costa Mabunda, desenvolvedor Full-Stack focado no ecossistema JavaScript e TypeScript. Gosto de transformar necessidades reais em produtos digitais completos: desenho a experiência, construo a interface, implemento a lógica no servidor e preparo a aplicação para crescer.
 
+Parágrafo 2:
+Trabalho com atenção à arquitetura, qualidade do código, acessibilidade e desempenho — sem perder de vista o objetivo do negócio e a experiência de quem vai usar.
 
-========== ABOUT SECTION ==========
-✅.about__title
-About Me: Young freelancer who enjoys <span>web design</span> 
-and <span>development</span>, passionate about my work, disciplined, 
-and successful.
+Card Lateral (Abordagem):
+- Título: Uma base sólida. Do Front ao Deploy.
+- Texto: Front-end, back-end, testes, versionamento e deploy pensados como partes de um único produto.
+- Stack (Tags): HTML/CSS · JavaScript · React · Tailwind · Node.js · Express · PostgreSQL · Prisma · Docker · Jest · Supertest · Swagger · Postman · Git
 
-✅.about__description
-If you have a project in mind, check out my work and contact me 
-to work together. Best of luck!
+Workflow (4 passos):
+01 Compreender: Objetivos, requisitos e arquitetura do sistema.
+02 Desenvolver: Front-end (React) e Back-end (Node/Express) integrados.
+03 Testar e Documentar: Testes unitários (Jest), integração (Supertest), API Docs (Swagger) e validação com Postman.
+04 Publicar: Containerização (Docker), versionamento com Git, deploy e monitorização.
 
-✅.about__button
-Contact me
 
 
-========== WORK SECTION ==========
-✅.section__title
-View My <span>Work</span>
+### ========== WORK SECTION ==========
+Eyebrow: Uma seleção de projetos
+Título: LANDING PAGES EM DESTAQUE.
+Descrição: Uma coleção de interfaces construídas do zero com foco em design moderno, responsividade e alta performance. Projetos de estudo e demonstração de código.
 
-✅.work__number ✅.work__name 
-01
-Restaurant Website
 
-02
-Design For Agriculture
 
-03
-Chicken Shop Website
+### ========== SERVICES SECTION ==========
+Eyebrow: Como posso ajudar
+Título: FULL-STACK. DE PONTA A PONTA.
+Descrição: Da interface à base de dados: soluções completas no ecossistema JavaScript, TypeScript e Node.js.
 
-04
-Complete Systems For Mining
+Card 01 — Front-end e experiência:
+Interfaces modernas e responsivas, construídas com foco na experiência, acessibilidade e velocidade.
+- React e aplicações web
+- Tailwind CSS e design responsivo
+- Animações e micro-interações
+- Otimização de performance
 
-05
-SEO Medicine Website
+Card 02 — Back-end, APIs e dados:
+Construção de APIs RESTful robustas com Node.js e Express.
+- Modelagem de dados com PostgreSQL e Prisma ORM
+- Autenticação, validação e segurança
+- Documentação de API com Swagger
+- Testes de endpoints com Postman
 
+Card 03 — Qualidade e Deploy:
+Garantia de qualidade e entrega contínua.
+- Testes unitários com Jest
+- Testes de integração com Supertest
+- Versionamento de código com Git
+- Containerização com Docker
 
-✅.work__description
-Professional website for a company, using HTML, CSS, JavaScript, 
-Gsap, Figma, Database and others.
 
 
-========== SERVICES SECTION ==========
-✅.section__title
-<span>My</span> Services
+### ========== SKILLS SECTION ==========
+Eyebrow: Ferramentas que utilizo
+Título: ECOSSISTEMA FULL-STACK.
+Descrição: Ferramentas para construir, testar, documentar e publicar aplicações completas.
 
-✅.services__name
-Website Developer
-Backend Developer
-Web Designer
-SEO Specialist
+Card 01 — Front-end:
+HTML · CSS · JavaScript · React · Tailwind CSS
 
-✅.services__description
-The service I offer to companies and clients involves working 
-on professional, high-quality projects, doing what I am most 
-passionate about.
+Card 02 — Back-end & Dados:
+Node.js · Express · PostgreSQL · Prisma ORM
 
-✅.services__item
-Web development
-Web performance
-Database
-Basic SEO
-Designer
-Responsive design
+Card 03 — Qualidade, Testes & DevOps:
+Docker · Jest · Supertest · Swagger · Postman · Git
 
-***** SERVICES ACCORDION JS COMMENTS *****
-// It iterates over each button found
 
-// Get the class of the clicked button (.services__card) and ⬇
 
-// Check already has the services-open class (Returns true or false)
+### ========== TESTIMONIALS / PROCESSO ==========
+*(Se você não tem depoimentos reais, transforme esta seção no seu processo de trabalho)*
 
-// Close all other services data
+Eyebrow: Um processo com intenção
+Título: BOM TRABALHO COMEÇA COM PESSOAS.
+Descrição: Uma abordagem colaborativa, do primeiro entendimento à atenção aos detalhes.
 
-// If the clicked card was closed, it opens it
+01 / Escutar: Compreender as pessoas, os objetivos e o contexto de cada projeto.
+02 / Explorar: Experimentar caminhos úteis e manter cada escolha ligada ao seu propósito.
+03 / Aperfeiçoar: Desenvolver, rever e refinar com acessibilidade e facilidade de utilização em mente.
 
 
-========== SKILLS SECTION ==========
-✅.section__title
-My <span>Skills</span>
 
-✅.skills__description
-My skills are those I've learned and developed over the years. By studying, 
-focusing, and being consistent in what I love most.
+### ========== CONTACT SECTION ==========
+Eyebrow: Precisa de um desenvolvedor parceiro?
+Título: VAMOS CRIAR ALGO COM SIGNIFICADO.
+Descrição: Partilhe um pouco sobre o projeto da sua agência ou a sua ideia. Será um prazer conversar sobre prazos e valores.
 
-✅.skills__title ✅.skills__item
-Frontend
-  HTML
-  CSS
-  JavaScript
-  React
-  Sass
-  Git
-  GitHub
+Card Esquerdo (WhatsApp):
+- Título: Uma boa conversa pode ser o primeiro passo.
+- Texto: Envie-me uma mensagem pelo WhatsApp para falarmos sobre a sua ideia, os seus objetivos e como posso ajudar.
+- Botão: Conversar pelo WhatsApp ↗
+- Número: WhatsApp · +258 845 384 097
 
-Backend
-  Lavarel
-  PostgreSQL
-  Node Js
-  Supabase
-  Socket.io
+Card Direito (Detalhes):
+- Eyebrow: Contacto direto
+- Título: Sem formulários. Vamos falar.
+- Texto: O botão abre uma conversa no WhatsApp com uma mensagem inicial pronta. Pode editá-la antes de enviar.
+- Link: Conhecer os projetos →
 
-Design
-  Figma
-  Blender
-  After effects
-  Photoshop
-  Ilustrator
-  Framer
 
-/* More icons */
-More icons at https://svgl.app/ - https://svglogos.dev/
 
+### ========== FOOTER ==========
+Logo: Fernando Costa Mabunda.
+Texto: Experiências digitais full-stack, criadas com cuidado.
+Links: Projetos · Serviços · Competências
+Copyright: © 2026 Fernando Costa Mabunda. Portefólio.
 
-========== TESTIMONIALS SECTION ==========
-✅.section__title
-<span>What</span> They Say
 
-✅.testimonials__number
-5.0
 
-✅.testimonials__description
-“This young man is very disciplined; he delivered a professional and 
-high-quality project. He is always in contact and active regarding 
-time, Good work.”
+### ========== README.md (Para o GitHub) ==========
 
-✅.testimonials__name
-Sara The
-Elemar Rice
-Rita Treds
-Augus Drix
+markdown
+# Fernando Costa Mabunda — Desenvolvedor Full-Stack
 
-***** TESTIMONIALS CARDS JS COMMENTS *****
-// Get all testimonial sliders
+Portfólio pessoal focado em desenvolvimento Full-Stack de alto padrão. Construído com foco em performance, qualidade de código e boas práticas de mercado.
 
-// Get the child testimonial sliders and create a copy of all cards
+## 🚀 Tecnologias
 
-// (... spread operato), converts the collection into an array
+Front-end:
+- HTML5, CSS3 (Arquitetura Modular)
+- JavaScript (ES6+)
+- React
+- Tailwind CSS
 
-// Get all the testimonial sliders
+Back-end & Dados:
+- Node.js
+- Express
+- PostgreSQL
+- Prisma ORM
 
-// Duplicate the card and append it at the end
+Qualidade, Testes & DevOps:
+- Docker
+- Jest (Testes Unitários)
+- Supertest (Testes de Integração)
+- Swagger (Documentação de API)
+- Postman (Testes de Endpoints)
+- Git (Versionamento)
 
 
-========== CONTACT SECTION ==========
-✅.section__title
-Contact <span>Me</span>
 
-✅.contact__label
-Name
-Email
-Message
 
-✅.contact__button
-Send Message
-
-✅.contact__title ✅.contact__address
-Email (mailto:bianca123@email.com)
-  bianca123@email.com
-
-Phone number (tel:+99 1234567890)
-  +99 1234567890
-
-Location (https://maps.app.goo.gl/DcjYxRjxrkb3DHTo9)
-  Lima - Peru, Av. District #123
-
-<!-- Insert your location in Google Maps (https://www.google.com/maps) -->
-<!-- Share -> Copy link -->
-
-***** CONTACT JS COMMENTS *****
-The code for sending emails is a sample test.
-
-Create your account at https://www.emailjs.com/ 
-and follow the instructions in the video and images 
-to send emails with your account.
-
-// Prevent the page from reloading
-
-// serviceID - templateID - #form - publicKey
-
-  // Show sent message
-    Message sent successfully ✅
-
-  // Clear input fields
-
-  // Show error message
-    Message not sent (service error) ❌
-
-  // Remove message after five seconds
-
-Subject *
-New message from {{user_name}}
-
-Content *
-Names: {{user_name}}
-
-Email: {{user_email}}
-
-Message: {{user_message}}
-
-Best wishes,
-EmailJS team
-
-
-========== FOOTER ==========
-✅.footer__title
-COLLABORATE WITH BIANCA AND START YOUR 
-JOURNEY IN CREATIVE DESIGN TODAY.
-
-✅.footer__links
-Work - Services - Skills
-
-https://www.facebook.com/bedimcode
-https://www.instagram.com/bedimcode/
-https://www.linkedin.com/
-https://github.com/bedimcode
-
-✅.footer__copy
-&#169; All Rights Reserved By Bedimcode
-
-***** CUSTOM CURSOR JS COMMENTS *****
-// Store mouse position
-
-// Horizontal position (X-axis)
-
-// Vertical position (Y-axis)
-
-// Centers the element at the pointer
-
-// Repeats the function with each movement
-
-// Detects mouse movement and updates positions
-
-// Save position X
-
-// Save position Y
-
-/* Hide custom cursor on links */
-// Mouse enters the link and hides the cursor
-
-// Mouse exits the link and shows the cursor
